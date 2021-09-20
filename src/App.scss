@@ -1,0 +1,30 @@
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.date-header {
+    background-color: #EEEEEE;
+}
+
+.event-active {
+    background-color: #effcff;
+}
+
+.event-item {
+    &:hover {
+        background-color: #ddfaff;
+    }
+}
+
+h1, h4 {
+    color: #1122cc;
+}
+
+.collapse-button {
+    color: #5588ff;
+
+    :hover {
+        color: #2255ff;
+    }
+}

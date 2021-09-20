@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Air Holland
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+Assignment for a CAE Job posting. Mobile development based on ReactJs, NodeJs and ExpressJs. 
 
-In the project directory, you can run:
+## Script Details
 
-### `npm start`
+### Install Script
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> npm install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Installs dependencies.
 
-### `npm test`
+### Development Script
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> npm start
 
-### `npm run build`
+Starts the Dev build.
+Concurrently start the server and the single page app or client. Client must have the proxy(in package.json) set to server's
+port
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Build Script
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+.env file > NODE_ENV=production
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To build the client:
+> npm run build
 
-### `npm run eject`
+Build script used by Heroku:
+> npm heroku-postbuild
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Test Script
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> npm test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Tests the client-side App.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### User Story:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Instantly see the duties for today on app open.
+2. Browse the event in the event list, see screen the the right for the format we require.
+3. Tap an item and see all details 
+4. Pull to refresh to reload the data 
+5. Data needs to be available offline (after loaded initially)
 
-### Code Splitting
+### Technical Requirements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. For the icons, use “Font Awesome”; 
+2. Try to mimic the events list as closely as possible; describe deviations (if any); 
+3. Anything you add on the detail view to make the events more meaningful to show your empathy with the target audience of the app, is appreciated. 
+4. We allow the assignment to be created in any mobile hybrid techstack that is TypeScript based, such as Ionic, Angular jQuery Mobile, Cordova, React, NativeScript or React Native.
