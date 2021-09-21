@@ -2,7 +2,7 @@
 
 ## About
 
-Assignment for a CAE Job posting. Mobile development based on ReactJs, NodeJs and ExpressJs.
+A simple project for an assignment. Full-stack development based on ReactJs, NodeJs and ExpressJs.
 
 ## Deployed Site
 
